@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: solid gray;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+nav {
+  height: 15vh;
+}
+
+.top-section-nav {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.list-items-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.shares,
+.playlists,
+.videos {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icon {
+  height: 1vh;
+  width: 1vw;
+}
+
+.nav-list-item {
+  font-size: 15px;
+}
+
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-icon {
+  height: 5vh;
+  width: 5vw;
+}
+
+main {
+  height: 100%;
+}
+
+.cards-grid {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  padding-left: 3%;
+  width: 35vw;
+}
+
+.card {
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 99%;
+  justify-content: flex-end;
+  overflow-wrap: break-word;
+  width: 80%;
+}
+
+.top-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.date,
+.playlist,
+.playlist-name,
+.views,
+.view-count,
+.attachments,
+.attachment-count {
+  margin: 0;
+}
+
+.playlist-section {
+  padding-bottom: 9px;
+}
+
+.name {
+  font-size: ;
+}
