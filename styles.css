@@ -7,6 +7,86 @@ body {
   background-color: solid gray;
   font-family: "Quicksand", sans-serif;
   display: flex;
+  flex-direction: column;
   margin: 0;
   width: 100%;
+}
+
+nav {
+  height: 15vh;
+}
+
+.top-section-nav {
+  /* background-color: black; */
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-items-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.shares,
+.playlists,
+.videos {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icon {
+  height: 1vh;
+  width: 1vw;
+}
+
+.nav-list-item {
+  font-size: 15px;
+}
+
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-icon {
+  height: 5vh;
+  width: 5vw;
+}
+
+.cards-grid {
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 350px 300px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+}
+
+.card {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 90%;
+}
+
+
+
+h4,
+.name-section,
+.playlist-section,
+.attachments-section {
+  margin: 0;
 }
