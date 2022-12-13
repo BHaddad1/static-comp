@@ -18,10 +18,12 @@ nav {
 
 .top-section-nav {
   /* background-color: black; */
-  height: 15vh;
   display: flex;
   flex-direction: row;
+  height: 15vh;
   justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .list-items-container {
@@ -64,29 +66,57 @@ nav {
   width: 5vw;
 }
 
+main {
+  height: 100%;
+}
+
 .cards-grid {
-  display: grid;
-  grid-gap: 3%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 350px 300px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  padding-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  padding-left: 3%;
+  width: 35vw;
 }
 
 .card {
   border: 2px solid black;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 95%;
-  width: 90%;
+  height: 99%;
+  justify-content: flex-end;
+  overflow-wrap: break-word;
+  width: 80%;
 }
 
+.top-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-around;
+}
 
+.text-section {
+  display: flex;
+  flex-direction: column;
+}
 
-h4,
-.name-section,
-.playlist-section,
-.attachments-section {
+.name,
+.date,
+.playlist,
+.playlist-name,
+.views,
+.view-count,
+.attachments,
+.attachment-count {
   margin: 0;
+}
+
+.playlist-section {
+  padding-bottom: 9px;
+}
+
+.name {
+  font-size: ;
 }
