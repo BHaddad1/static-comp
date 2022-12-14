@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  background-color: solid gray;
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
@@ -20,10 +19,12 @@ nav {
 
 .top-section-nav {
   /* background-color: black; */
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
   height: 25vh;
   justify-content: space-between;
+  width: 100%;
 }
 
 .list-items-container {
@@ -31,12 +32,16 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-left: 5%;
 }
 
-.shares,
-.playlists,
-.videos {
+nav {
   align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
   display: flex;
   flex-direction: row;
 }
@@ -51,9 +56,12 @@ nav {
 }
 
 .right-side-container {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
+  height: 17vh;
   justify-content: space-between;
+  margin-right: 18%;
 }
 
 .admin-container {
@@ -66,10 +74,17 @@ nav {
   width: 5vw;
 }
 
+.shares-view {
+  font-size: 35px;
+  margin-left: 6%;
+  margin-top: 8%;
+}
+
 .cards-grid {
   display: flex;
   flex-direction: row;
   height: 50vh;
+  margin-top: 3%;
   padding-left: 3%;
   padding-right: 5%;
   width: 20vw;
@@ -82,12 +97,9 @@ nav {
   flex-direction: column;
   height: 99%;
   justify-content: flex-end;
+  margin: 10%;
   overflow-wrap: break-word;
   width: 80%;
-}
-
-.first {
-  margin-top: 15%;
 }
 
 .top-section {
