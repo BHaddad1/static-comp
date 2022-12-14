@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  position: relative;
   width: 100%;
 }
 
@@ -8,6 +9,7 @@ body {
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
+  height: 100%;
   margin: 0;
   width: 100%;
 }
@@ -20,10 +22,8 @@ nav {
   /* background-color: black; */
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 25vh;
   justify-content: space-between;
-  padding-right: 5%;
-  padding-left: 5%;
 }
 
 .list-items-container {
@@ -66,16 +66,13 @@ nav {
   width: 5vw;
 }
 
-main {
-  height: 100%;
-}
-
 .cards-grid {
   display: flex;
   flex-direction: row;
   height: 50vh;
   padding-left: 3%;
-  width: 35vw;
+  padding-right: 5%;
+  width: 20vw;
 }
 
 .card {
@@ -87,6 +84,10 @@ main {
   justify-content: flex-end;
   overflow-wrap: break-word;
   width: 80%;
+}
+
+.first {
+  margin-top: 15%;
 }
 
 .top-section {
