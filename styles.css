@@ -15,10 +15,6 @@ body {
   width: 100%;
 }
 
-nav {
-  height: 15vh;
-}
-
 .top-section-nav {
   align-items: flex-end;
   background-color: #a9c5a0;
@@ -35,12 +31,6 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   margin-left: 5%;
-}
-
-nav {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
 }
 
 button {
@@ -141,7 +131,9 @@ button {
 .text-section {
   display: flex;
   flex-direction: column;
-  margin: 7%;
+  margin-left: 12%;
+  margin-right: 15%;
+  margin-top: 4%;
 }
 
 .name,
@@ -166,12 +158,12 @@ button {
 }
 
 .views {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
 .view-count {
-  color: white;
+  color: black;
   font-size: 35px;
 }
 
