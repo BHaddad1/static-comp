@@ -5,6 +5,8 @@ html {
 }
 
 body {
+  background-color: #c6dec6;
+  color: #758173;
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
@@ -19,9 +21,10 @@ nav {
 
 .top-section-nav {
   align-items: flex-end;
+  background-color: #a9c5a0;
   display: flex;
   flex-direction: row;
-  height: 25vh;
+  height: 23vh;
   justify-content: space-between;
   width: 100%;
 }
@@ -41,8 +44,9 @@ nav {
 }
 
 button {
-  color: #1e96fc;
+  color: #758173;
   border: none;
+  background-color: #a9c5a0;
   display: flex;
   flex-direction: row;
 }
@@ -86,10 +90,20 @@ button {
   width: 6vw;
 }
 
-.shares-view {
+.cats-view-container {
+  align-items: center;
+  background-color: #c6dec6;
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  margin-top: 3%;
+  width: 109%;
+}
+
+.cats-view {
+  background-color: #c6dec6;
   font-size: 35px;
-  margin-left: 6%;
-  margin-top: 8%;
+  margin-left: 5%;
 }
 
 .cards-grid {
@@ -103,12 +117,12 @@ button {
 }
 
 .card {
-  border: 2px solid black;
+  background-color: #fae3e3;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   height: 99%;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 10%;
   overflow-wrap: break-word;
   width: 80%;
@@ -116,10 +130,14 @@ button {
 
 .top-section {
   align-items: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
-  height: 21vh;
+  height: 25vh;
   justify-content: space-around;
+  max-height: 49%;
+  max-width: 100%;
 }
 
 .text-section {
@@ -128,9 +146,9 @@ button {
 }
 
 .name,
-.date,
-.playlist,
-.playlist-name,
+.breed,
+.favorite-toy,
+.toy,
 .views,
 .view-count,
 .attachments,
@@ -138,6 +156,66 @@ button {
   margin: 0;
 }
 
-.playlist-section {
+.toys-section {
   padding-bottom: 9px;
+}
+
+.top-right-of-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.views {
+  color: white;
+  font-size: 20px;
+}
+
+.view-count {
+  color: white;
+  font-size: 35px;
+}
+
+.link {
+  background-color: #5d4e60;
+  color: white;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.top-section-icon {
+  height: 5vh;
+  width: 3vw;
+}
+
+.one {
+  background-image: url(./assets/cat_one.jpg);
+}
+
+.two {
+  background-image: url(./assets/cat_two.jpg);
+}
+
+.three {
+  background-image: url(./assets/cat_three.jpg);
+}
+
+.four {
+  background-image: url(./assets/cat_four.jpg);
+}
+
+.five {
+  background-image: url(./assets/cat_five.jpg);
+}
+
+.six {
+  background-image: url(./assets/cat_six.jpg);
+}
+
+.seven {
+  background-image: url(./assets/cat_seven.jpg);
+}
+
+.eight {
+  background-image: url(./assets/cat_eight.jpg);
 }
