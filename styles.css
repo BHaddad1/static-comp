@@ -1,7 +1,7 @@
 html {
   height: 100%;
   position: relative;
-  width: 100%;
+  width: 109%;
 }
 
 body {
@@ -143,6 +143,7 @@ button {
 .text-section {
   display: flex;
   flex-direction: column;
+  margin: 7%;
 }
 
 .name,
@@ -151,8 +152,8 @@ button {
 .toy,
 .views,
 .view-count,
-.attachments,
-.attachment-count {
+.shots,
+.shots-two {
   margin: 0;
 }
 
@@ -201,11 +202,11 @@ button {
 }
 
 .four {
-  background-image: url(./assets/cat_four.jpg);
+  background-image: url(./assets/cat_nine.jpg);
 }
 
 .five {
-  background-image: url(./assets/cat_five.jpg);
+  background-image: url(./assets/cat_ten.jpg);
 }
 
 .six {
@@ -218,4 +219,10 @@ button {
 
 .eight {
   background-image: url(./assets/cat_eight.jpg);
+}
+
+.breed,
+.toy,
+.shots-two {
+  font-size: 12px;
 }
