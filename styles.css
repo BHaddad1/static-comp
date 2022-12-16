@@ -71,9 +71,16 @@ button {
   width: 15vw;
 }
 
+.username {
+  font-size: 14px;
+  height: 8vh;
+  padding-top: 5%;
+}
+
 .user-icon,
 .down-arrow {
-  height: 4vh;
+  height: 3vh;
+  padding-top: 3%;
   width: 2vw;
 }
 
