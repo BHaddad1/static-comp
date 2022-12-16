@@ -10,7 +10,7 @@ This project was meant to further develop our CSS and HTML skills. We were given
 
 I chose to make a cat adoption website that featured adoptable cats, a brief description of their breed, their favorite toy, and whether they were caught up on their shots, seen below.
 
-![Preview of Comp](./assets/Blanche_comp.png)
+![Preview of Comp](./assets/Blanche_2.png)
 
 I worked on this project for three days during week three of Module 2 at Turing School of Software Design.
 
