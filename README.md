@@ -4,11 +4,11 @@
 
 ### Learning Goals
 
-This project was meant to further develop our CSS and HTML skills. We were given a static comp that and were able to experiment with a different theme while remaining true to the layout provided, seen below.
+This project was meant to further develop our CSS and HTML skills. We were given a static comp to replicate, but were able to experiment with a different theme while remaining true to the layout provided, as seen below.
 
 ![Static Comp](./assets/Static_comp.png)
 
-I chose to make a cat adoption website that featured adoptable cats, a brief description of their breed, their favorite toy, and whether they were caught up on their shots, seen below.
+I chose to make a cat adoption website that featured adoptable cats, a brief description of their breed, their favorite toy, and whether they were caught up on their shots, as seen below.
 
 ![Preview of Comp](./assets/Blanche_comp.png)
 
