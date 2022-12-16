@@ -39,6 +39,7 @@ button {
   background-color: #a9c5a0;
   display: flex;
   flex-direction: row;
+  font-size: 20px;
 }
 
 .nav-icon {
@@ -48,7 +49,7 @@ button {
 
 .nav-list-item {
   border: 0;
-  font-size: 15px;
+  font-size: 20px;
   height: 5vh;
   width: 184px;
 }
@@ -77,6 +78,7 @@ button {
 }
 
 .site-logo {
+  margin-left: 20%;
   width: 4vw;
 }
 
@@ -91,7 +93,7 @@ button {
   display: flex;
   flex-direction: row;
   height: 15vh;
-  margin-top: 3%;
+  margin-top: 1%;
   width: 109%;
 }
 
